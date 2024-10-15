@@ -86,7 +86,7 @@ with gr.Blocks() as demo:
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--host', default="0.0.0.0", type=str)
-    parser.add_argument('--port', default=7860, type=int)
+    parser.add_argument('--port', default=8002, type=int)
     args = parser.parse_args()
 
     demo.launch(server_name=args.host, server_port=args.port)
