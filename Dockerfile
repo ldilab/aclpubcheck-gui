@@ -34,6 +34,6 @@ RUN pip install -e ./aclpubcheck-main
 RUN pip install gradio==3.48.0
 
 
-EXPOSE 7860
+EXPOSE 8002
 
-CMD ["python3", "app.py", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["python3", "app.py", "--host", "0.0.0.0", "--port", "8002"]
